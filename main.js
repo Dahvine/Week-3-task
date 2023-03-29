@@ -10,7 +10,5 @@ document.getElementById("submitbtn").addEventListener("click", function(e){
     } else{
         alert("Form has been submitted successfully");
     }
-
 }
-
 )
