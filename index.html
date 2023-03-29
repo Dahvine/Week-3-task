@@ -15,37 +15,39 @@
             </p>
         <span class="tologin">Please login to get started!</span>
         </div>
-        <div class="myform">
+        <div id="myform">
+            <form id="theform">
             <p id="fillform">please fill the form below!</p>
             
         <div class="allinput">
             <label for="username">Username:</label> <br>
-            <input class="inputtxt" name="username" type="text" placeholder="Enter username"> <br>
+            <input class="inputtxt" id="username" name="username" type="text" placeholder="Enter username" required> <br>
         </div>
 
         <div class="allinput">
             <label for="email">Email:</label> <br>
-            <input class="inputtxt" name="email" type="email" placeholder="Enter Email"> <br>
+            <input class="inputtxt" id="email" name="email" type="email" placeholder="Enter Email" required> <br>
         </div>
 
         <div class="allinput">
             <label for="password">Password:</label> <br>
-            <input class="inputtxt" name="password" type="password" placeholder="Enter password"> <br>
+            <input class="inputtxt" id="password" name="password" type="password" placeholder="Enter password" required> <br>
         </div>
 
         <div class="allinput">
             <label for="gender">Gender:</label>
-            <input type="radio" name="gender" id="male">
-            <input type="radio" name="gender" id="female"> <br>
+            <input type="radio" name="gender" id="male"> Male
+            <input type="radio" name="gender" id="female"> Female <br>
         </div>
 
         <div class="allinput">
             <label for="number">Phone number:</label> <br>
-            <input class="inputtxt" name="number" type="tel" placeholder="Phone number"> <br>
+            <input class="inputtxt" id="number" name="number" type="tel" placeholder="Phone number" required> <br>
         </div>
 
-            <button type="submit">Submit</button>
+            <input id="submitbtn" type="submit" value="Submit">
 
+        </form>
         </div>
     </div>
 </body>
